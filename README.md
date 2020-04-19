@@ -1,5 +1,12 @@
 # Cloudflare Internship Application: Systems
 
+## Note
+ *      - Run must be under root priveledges
+ *      - On Terminal:
+ *          $ gcc -o ping ping.c
+ *          $ sudo ./ping
+ *          > <hos name/IP> <Number of ping to be sent>
+
 ## What is it?
 
 Please write a small Ping CLI application for MacOS or Linux.
@@ -37,10 +44,6 @@ Packet loss and latency should be reported as each message received.
 When submitting your project, you should prepare your code for upload to Greenhouse. The preferred method for doing this is to create a "ZIP archive" of your project folder: for more instructions on how to do this on Windows and Mac, see [this guide](https://www.sweetwater.com/sweetcare/articles/how-to-zip-and-unzip-files/).
 
 Please provide the source code only, a compiled binary is not necessary.
-
-## Using Libraries
-
-You may use libraries (both built-in and installed via package managers) and system calls as necessary. Please don't use the ping built-in application or a full library implementation of ping.
 
 ## Extra Credit
 
